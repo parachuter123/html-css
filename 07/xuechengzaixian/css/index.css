@@ -235,6 +235,85 @@ h1{
     font-size: 12px;
     color:#a5a5a5;
 }
+.box .content li{
+    float:left;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-right:15px;
+    margin-bottom: 15px;
+}
+.box .content li:nth-child(5n){
+    margin-right: 0px;
+}
+.box .content li img{
+    width: 228px;
+    height: 155px;
+}
+
+.box .content li h3{
+    padding: 25px 25px 20px;
+    font-size: 14px;
+    color: #050505;
+}
+.box .content li p{
+    padding: 0 25px;
+    font-size: 12px;
+    color: #999;
+}
+.box .content li span{
+    color:#ff7c2d;
+}
+
+.footer{
+    height: 417px;
+    background-color: #fff;
+}
+.footer .left{
+    float:left;
+    margin-left: 21px;
+}
+.footer .left img{
+    margin-top: 33px;
+}
+.footer .left p{
+    margin-top: 25px;
+    font-size: 14px;
+    color: #999;
+}
+.footer .left .links{
+    margin-top: 25px;
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    
+    border: solid 1px #00a4ff;
+}
+.footer .left .links a{
+    font-size: 14px;
+    color:#00a4ff;
+}
+
+.footer .right{
+    float:right;
+    margin-top:33px;
+}
+.footer .right dl{
+    float:left;
+    margin-right: 90px;
+}
+.footer .right dt{
+    font-size:16px;
+    color:#333;
+}
+
+.footer .right dd a{
+    font-size:12px;
+    color:#333;
+}
+
+
 
 
 
