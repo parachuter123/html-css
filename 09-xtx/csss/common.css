@@ -1,0 +1,144 @@
+/* 版心 */
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+/* 快捷导航 */
+.shorcut{
+    height:52px;
+    background: #333;
+}
+.shorcut .wrapper{
+    height:52px;
+}
+.shorcut .wrapper ul{
+    float:right;
+}
+.shorcut .wrapper li{
+    float:left;
+    line-height: 52px;
+}
+.shorcut .wrapper li a{
+    padding:0 16px;
+    font-size:14px;
+    color: #dcdcdc;
+    border-right: 1px solid #666;
+}
+.shorcut .wrapper li a span{
+    display: inline-block;
+    margin-right: 8px;
+    width: 11px;
+    height:18px;
+
+    background-image: url(../images/sprites.png);
+    background-position: -160px -70px;
+    vertical-align: middle;
+}  
+.shorcut .wrapper li:last-child a{
+    border: 0;
+}
+
+/* 头 顶 */
+.header {
+    height: 70px;
+    margin:30px auto;
+    /* background-color: #83bbae; */
+}
+/* logo */
+.header .logo{
+    float: left;
+    width: 207px;
+    height: 70px;
+    margin-left:25px;
+    margin-right:40px;
+}
+.header .logo h1{
+    width: 207px;
+    height: 70px;
+}
+.header .logo h1 a{
+    display: block;
+    width: 207px;
+    height: 70px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    font-size:0;
+}
+/* 导航 */
+.header .nav{
+    display: block;
+    float:left;
+    height: 70px;
+}
+.header .nav li{
+    float: left;
+    line-height:70px;
+    margin-right:48px;
+}
+.header .nav li a{
+    font-size: 16px;
+    color:#333;
+    padding-bottom: 7px;
+}
+.header .nav li a:hover{
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+
+/* 搜索框 */
+.header .search{
+    position: relative;
+    display: block;
+    float:left;
+    margin-left:34px;
+    width: 172px;
+    height: 70px;
+    line-height: 70px;
+}
+.header .search input{
+    padding-left: 30px;
+    width: 172px;
+    height:30px;
+    border: none;
+    border-bottom: 2px solid #e7e7e7;
+}
+.header .search input::placeholder{
+    font-size: 14px;
+    color: #ccc;
+}
+.header .search span{
+    position: absolute;
+    left:2px;
+    top:27px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/sprites.png);
+    background-position: -79px -70px;
+}
+/* 购物车 */
+.header .car{
+    position: relative;
+    float:left;
+    display: block;
+    margin-left: 5px;
+    margin-top: 26px;
+    width: 23px;
+    height: 23px;
+    line-height: 70px;
+    background-image: url(../images/sprites.png);
+    background-position: -119px -70px;
+}
+.header .car span{
+    position: absolute;
+    right:-13px;
+    top:-6px;
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 15px;
+}
+
+
+
