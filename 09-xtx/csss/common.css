@@ -139,6 +139,59 @@
     text-align: center;
     line-height: 15px;
 }
+  
+/* 脚尾 */
+.footer{
+    height:344px;
+    background-color: #333;
+}
+.footer .wrapper{
+    width: 1392px;
+}
+.footer .top{
+    position: relative;
+    height:173px;
+    /* background-color: green; */
+    border-bottom:3px solid #434343;
+}
+.footer .top li{
+    float: left;
+    padding:59px 140px 54px 212px;
+}
+.footer .top li::before{
+    content:'';
+    position:absolute;
+    left:137px;
+    top:49px;
+    width: 58px;
+    height:58px;
+    background-image: url(../images/sprites.png);
+    background-position: 0 0;
+}
+.footer .top li:nth-child(2)::before{
+    left:600px;
+    background-image: url(../images/sprites.png);
+    background-position: -130px 0;
+}
+.footer .top li:nth-child(3)::before{
+    left:1067px;
+    background-image: url(../images/sprites.png);
+    background-position: -64px 0;
+}
+.footer .top li{
+    font-size: 28px;
+    color:#fff;
+}
+.footer .bottom p{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 14px;
+    color:#999;
+}
+.footer .bottom p span a{
+    font-size: 14px;
+    color:#999;
+}
 
 
 
